@@ -8,8 +8,9 @@ h1{
 .my-name{
     color: rgb(255, 136, 0);
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -29,6 +30,41 @@ section{
     font-weight: 800;
 }
 .top-banner{
-    background-image: url(top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px gray;
+}
+#web-dev-exp{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-dev-exp2{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
